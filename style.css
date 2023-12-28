@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background: url(../dev\ text/photo/pic.JPEG);
+	background-size:cover ;
+	background-position: center;
+	height: 100vh;
+}
+header{
+	background: transparent;
+	width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+	font-size: 40px;
+	font-weight: bold;
+	color:  rgb(109, 110, 156);
+	letter-spacing: 2px;
+	cursor: pointer;
+}
+nav li{
+	display: inline-block;
+	list-style: none;
+	padding: 30px 20px;
+
+}
+
+a {
+	font-size: 30px;
+	color: white;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+nav li a:hover{
+	color:  rgb(109, 110, 156);
+}
+ button {
+	background: transparent;
+	border: 2px solid rgb(109, 110, 156);
+	border-radius: 50px;
+	padding: 10px 20px;
+}
+button:hover{
+	background:  rgb(109, 110, 156);
+}
+.text-primary input{
+	width: 500px;
+	height: 45px;
+	border: 1px solid #3E2D33;
+	position: relative;
+    transform: translateX(300px);
+}
+.text-primary span{
+    height: 45px;
+    padding: 10px;
+    position: absolute;
+    left: 955px;
+    font-size: 20px;
+    border: 1px solid #3E2D33;
+   }
