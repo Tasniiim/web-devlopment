@@ -58,3 +58,86 @@ button a{
     color: rgb(212, 206, 211);
     text-shadow: 1px 1px 2px rgb(148, 145, 145);
 }
+
+
+.wrapper{
+	width: 70vw;
+	height: 75vh;
+	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
+	position: relative;
+	margin: 5rem auto;
+	left: 20px;
+	overflow: hidden;
+   }
+   #slider-img-1{
+	   background: url(../web-devlopment/photos/pic1.jpeg);
+	   background-size:cover ;
+	   background-position: center ;
+   }
+   #slider-img-2{
+	   background: url(../web-devlopment/photos/pic2.jpeg);
+	   background-size:cover ;
+	   background-position: center ;
+   }
+   #slider-img-3{
+	background: url(../web-devlopment/photos/pic3.jpeg);
+	background-size:cover ;
+	background-position: center ;
+}
+#slider-img-4{
+	background: url(../web-devlopment/photos/pic4.jpeg);
+	background-size:cover ;
+	background-position: center ;
+}
+#slider-img-5{
+	background: url(../web-devlopment/photos/pic5.jpeg);
+	background-size:cover ;
+	background-position:center ;
+}
+#slider-img-5{
+	background: url(../web-devlopment/photos/pic6.jpeg);
+	background-size:cover ;
+	background-position:center ;
+}
+   .wrapper .wrapper-holder{
+	   display: grid;
+	   grid-template-columns: repeat(5, 100%);
+	   width: 100%;
+	   height: 100%;
+	   animation: slider 25s infinite alternate;
+   }
+   @keyframes slider{
+	   0%{
+		   transform: translateX(0%);
+	   }
+	   10%{
+		   transform: translateX(-100%);
+	   }
+	   20%{
+		   transform: translateX(-200%);
+	   }
+	   30%{
+		   transform: translateX(-300%);
+	   }	
+	   40%{
+		transform: translateX(-400%);
+	   }
+	   50%{
+		transform: translateX(-500%);
+	   }
+	   60%{
+		transform: translateX(-500%);
+	   }
+	   70%{
+		transform: translateX(-400%);
+	   }
+	   80%{
+		transform: translateX(-300%);
+	   }
+	   90%{
+		transform: translateX(-200%);
+	   }
+	   100%{
+		transform: translateX(-100%);
+	   }
+   }
