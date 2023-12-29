@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 12px;
+	box-sizing: border-box;
+}  
+body{
+	background: url(../web-devlopment/photos/pic.jpeg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+header{
+	background: transparent;
+	width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo a{
+	font-size: 60px;
+	font-weight: bold;
+	color: rgb(113, 89, 114);
+	letter-spacing: 2px;
+ ;
+	cursor: pointer;
+    text-shadow: 1px 1px 10px rgb(137, 121, 139);
+}
+nav li{
+	display: inline-block;
+	list-style: none;
+	padding: 30px 20px;
+
+}
+
+a {
+	font-size: 30px;
+	color: rgb(113, 89, 114);
+	text-decoration: none;
+	cursor: pointer;
+}
+
+nav li a:hover{
+	color: rgb(113, 89, 114);
+}
+button {
+    background: rgb(113, 89, 114);
+	border: none;
+	border-radius: 50px;
+	padding: 20px;
+    box-shadow: 2px 2px 20px 0 rgb(90, 75, 85);
+}
+button:hover{
+	background:  transparent;
+}
+button a{
+    color: rgb(212, 206, 211);
+    text-shadow: 1px 1px 2px rgb(148, 145, 145);
+}
