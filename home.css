@@ -68,6 +68,8 @@ button a{
 	margin: 5rem auto;
 	left: 20px;
 	overflow: hidden;
+	width: 100%;
+	height: 100%;
    }
    #slider-img-1{
 	   background: url(../web-devlopment/photos/pic1.jpeg);
@@ -82,29 +84,32 @@ button a{
    #slider-img-3{
 	background: url(../web-devlopment/photos/pic3.jpeg);
 	background-size:cover ;
-	background-position: center ;
+	background-position: center 
 }
 #slider-img-4{
 	background: url(../web-devlopment/photos/pic4.jpeg);
 	background-size:cover ;
 	background-position: center ;
+
 }
 #slider-img-5{
 	background: url(../web-devlopment/photos/pic5.jpeg);
 	background-size:cover ;
 	background-position:center ;
+
 }
 #slider-img-5{
 	background: url(../web-devlopment/photos/pic6.jpeg);
 	background-size:cover ;
 	background-position:center ;
+
 }
    .wrapper .wrapper-holder{
 	   display: grid;
 	   grid-template-columns: repeat(5, 100%);
 	   width: 100%;
 	   height: 100%;
-	   animation: slider 25s infinite alternate;
+	   animation: slider 60s infinite alternate;
    }
    @keyframes slider{
 	   0%{
@@ -138,6 +143,6 @@ button a{
 		transform: translateX(-200%);
 	   }
 	   100%{
-		transform: translateX(-100%);
+		transform: translateX(0%);
 	   }
    }
