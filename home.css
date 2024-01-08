@@ -10,7 +10,7 @@ body{
 	height: 100vh;
 }
 header{
-	background: transparent;
+	background: none;
 	width: 100%;
     height: 75px;
     display: flex;
@@ -61,52 +61,50 @@ button a{
 
 
 .wrapper{
-	width: 70vw;
-	height: 75vh;
 	box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.6);
 	position: relative;
-	margin: 5rem auto;
-	left: 20px;
+	margin: 20px;
 	overflow: hidden;
 	width: 100%;
-	height: 100%;
+    height: 600px;
    }
    #slider-img-1{
-	   background: url(../web-devlopment/photos/pic1.jpeg);
+	   background-image: url(../web-devlopment/photos/pic1.jpeg);
 	   background-size:cover ;
 	   background-position: center ;
    }
    #slider-img-2{
-	   background: url(../web-devlopment/photos/pic2.jpeg);
+	   background-image: url(../web-devlopment/photos/pic2.jpeg);
 	   background-size:cover ;
 	   background-position: center ;
    }
    #slider-img-3{
-	background: url(../web-devlopment/photos/pic3.jpeg);
+	background-image: url(../web-devlopment/photos/pic3.jpeg);
 	background-size:cover ;
 	background-position: center 
-}
-#slider-img-4{
-	background: url(../web-devlopment/photos/pic4.jpeg);
+   }
+ #slider-img-4{
+	background-image: url(../web-devlopment/photos/pic4.jpeg);
 	background-size:cover ;
 	background-position: center ;
 
 }
 #slider-img-5{
-	background: url(../web-devlopment/photos/pic5.jpeg);
+	background-image: url(../web-devlopment/photos/pic5.jpeg);
 	background-size:cover ;
 	background-position:center ;
 
 }
-#slider-img-5{
-	background: url(../web-devlopment/photos/pic6.jpeg);
+#slider-img-6{
+	background-image: url(../web-devlopment/photos/pic6.jpeg);
 	background-size:cover ;
 	background-position:center ;
 
 }
+
    .wrapper .wrapper-holder{
 	   display: grid;
-	   grid-template-columns: repeat(5, 100%);
+	   grid-template-columns: repeat(6, 100%);
 	   width: 100%;
 	   height: 100%;
 	   animation: slider 60s infinite alternate;
@@ -131,16 +129,16 @@ button a{
 		transform: translateX(-500%);
 	   }
 	   60%{
-		transform: translateX(-500%);
-	   }
-	   70%{
 		transform: translateX(-400%);
 	   }
-	   80%{
+	   70%{
 		transform: translateX(-300%);
 	   }
-	   90%{
+	   80%{
 		transform: translateX(-200%);
+	   }
+	   90%{
+		transform: translateX(-100%);
 	   }
 	   100%{
 		transform: translateX(0%);
