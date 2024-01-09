@@ -65,8 +65,9 @@ button a{
 	position: relative;
 	margin: 20px;
 	overflow: hidden;
-	width: 100%;
-    height: 600px;
+	width: 900px;
+    height: 550px;
+	left: 300px;
    }
    #slider-img-1{
 	   background-image: url(../web-devlopment/photos/pic1.jpeg);
