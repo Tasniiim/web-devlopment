@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }  
 body{
-	background: url(../web-devlopment/photos/pic.jpeg);
+	background: url(../web-devlopment/photos/\ \(7\).jpeg);
 	background-size: cover;
 	background-position: center;
 	height: 100vh;
@@ -70,34 +70,34 @@ button a{
 	left: 300px;
    }
    #slider-img-1{
-	   background-image: url(../web-devlopment/photos/pic1.jpeg);
+	   background-image: url(../web-devlopment/photos/\ \(1\).jpeg);
 	   background-size:cover ;
 	   background-position: center ;
    }
    #slider-img-2{
-	   background-image: url(../web-devlopment/photos/pic2.jpeg);
+	   background-image: url(../web-devlopment/photos/\ \(2\).jpeg);
 	   background-size:cover ;
 	   background-position: center ;
    }
    #slider-img-3{
-	background-image: url(../web-devlopment/photos/pic3.jpeg);
+	background-image: url(../web-devlopment/photos/\ \(3\).jpeg);
 	background-size:cover ;
 	background-position: center 
    }
  #slider-img-4{
-	background-image: url(../web-devlopment/photos/pic4.jpeg);
+	background-image: url(../web-devlopment/photos/\ \(4\).jpeg);
 	background-size:cover ;
 	background-position: center ;
 
 }
 #slider-img-5{
-	background-image: url(../web-devlopment/photos/pic5.jpeg);
+	background-image: url(../web-devlopment/photos/\ \(5\).jpeg);
 	background-size:cover ;
 	background-position:center ;
 
 }
 #slider-img-6{
-	background-image: url(../web-devlopment/photos/pic6.jpeg);
+	background-image: url(../web-devlopment/photos/\ \(6\).jpeg);
 	background-size:cover ;
 	background-position:center ;
 
